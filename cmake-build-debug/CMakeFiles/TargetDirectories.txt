@@ -1,3 +1,0 @@
-/Users/evgeniishchagin/CLionProjects/BoardGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/evgeniishchagin/CLionProjects/BoardGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/evgeniishchagin/CLionProjects/BoardGame/cmake-build-debug/CMakeFiles/BoardGame.dir
