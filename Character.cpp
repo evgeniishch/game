@@ -6,5 +6,8 @@ Character::Character(std::string name, int price, int health, int armour, int da
         price(price),
         health(health),
         armour(armour),
-        damage(damage) {};
+        damage(damage),
+        experience(0),
+        troopExperience(0)
+{};
 

@@ -9,6 +9,8 @@ public:
     int health;
     int armour;
     int damage;
+    int experience;
+    int troopExperience;
 
     // vector<Armour> armour;
     // vector<Abilities> abilities;
