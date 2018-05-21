@@ -20,6 +20,7 @@ protected:
     void makeMove();
     void placeOnBattlefield();
     void attack();
+    void updateTroops();
 
     std::vector<Player> players;
     std::vector<std::pair<int, Character>> battlefield;

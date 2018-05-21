@@ -127,7 +127,10 @@ void Game::makeMove() {
             }
         }
     }
+}
 
+void Game::updateTroops() {
+    // обновляем экономику отрядов каждого персонажа
 }
 
 void Game::startGame() {
@@ -147,6 +150,7 @@ void Game::runGame() {
             break;
         } else {
             makeMove();
+            updateTroops();
             currentPlayerNumber = (currentPlayerNumber + 1) % players.size();
         }
     }
