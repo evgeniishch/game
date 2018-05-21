@@ -1,9 +1,10 @@
+//
+// Created by Evgenii Shchagin on 20.05.18.
+//
 #pragma once
 
 #include <iostream>
-#include <string>
 #include <memory>
-#include <vector>
 
 #include "Character.h"
 #include "Data.h"

@@ -1,7 +1,28 @@
 //
-// Created by Evgenii Shchagin on 05.05.18.
+// Created by Evgenii Shchagin on 20.05.18.
 //
+#pragma once
+
+#include "Player.h"
+#include "GameRules.h"
+
 class Game {
-    // этот класс будет отвечать за игровой процесс - действия игроков, ход сражений и т.д.
+public:
+    Game() = default;
+
+    void startGame();
+
+
+protected:
+    void initializePlayers();
+    void initiallyChooseCharacters();
+    void runGame();
+    void makeMove();
+    void placeOnBattlefield();
+    void attack();
+
+    std::vector<Player> players;
+    std::vector<std::pair<int, Character>> battlefield;
+    int currentPlayerNumber;
 };
 

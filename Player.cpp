@@ -1,4 +1,6 @@
-#include <string>
+//
+// Created by Evgenii Shchagin on 20.05.18.
+//
 #include "Player.h"
 
 Player::Player(std::string name):
@@ -45,7 +47,7 @@ void Player::formTroop() {
         std::cout << "Недостаточно золота" << std::endl;
     } else {
         gold -= totalPrice + fee;
-        troops.insert(troops.end(), newTroop.begin(), newTroop.end());
+        troops.emplace_back(newTroop);
         std::cout << "Отряд успешно сформирован" << std::endl;
     }
 
