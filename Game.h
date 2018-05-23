@@ -11,16 +11,16 @@ public:
     Game() = default;
 
     void startGame();
-
-
-protected:
     void initializePlayers();
     void initiallyChooseCharacters();
     void runGame();
-    void makeMove();
+
     void placeOnBattlefield();
     void attack();
     void updateTroops();
+    void buyCharacter();
+
+    void printCommands();
 
     std::vector<Player> players;
     std::vector<std::pair<int, Character>> battlefield;

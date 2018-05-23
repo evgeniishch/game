@@ -14,6 +14,14 @@ Character.h
 string
 -
 
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.cpp
+Command.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+Game.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.cpp
 Data.h
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
@@ -29,6 +37,14 @@ Character.h
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.cpp
 Game.h
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+buyCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h
+formTroopCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h
+placeOnBttlfdCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h
+attackCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h
 
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
 Player.h
@@ -66,7 +82,39 @@ Data.h
 GameRules.h
 /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
 
+/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.cpp
+attackCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h
+Command.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.cpp
+buyCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h
+Command.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.cpp
+formTroopCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h
+Command.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+
 /Users/evgeniishchagin/CLionProjects/BoardGame3/main.cpp
 Game.h
 /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.cpp
+placeOnBttlfdCommand.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h
+
+/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h
+Command.h
+/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
 

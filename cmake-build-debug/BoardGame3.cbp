@@ -88,6 +88,12 @@
 		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h">
 			<Option target="BoardGame3"/>
 		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h">
+			<Option target="BoardGame3"/>
+		</Unit>
 		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/Data.cpp">
 			<Option target="BoardGame3"/>
 		</Unit>
@@ -112,7 +118,31 @@
 		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h">
 			<Option target="BoardGame3"/>
 		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h">
+			<Option target="BoardGame3"/>
+		</Unit>
 		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/main.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.cpp">
+			<Option target="BoardGame3"/>
+		</Unit>
+		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h">
 			<Option target="BoardGame3"/>
 		</Unit>
 		<Unit filename="/Users/evgeniishchagin/CLionProjects/BoardGame3/CMakeLists.txt">

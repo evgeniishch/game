@@ -5,11 +5,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/Character.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/Character.cpp.o"
+  "/Users/evgeniishchagin/CLionProjects/BoardGame3/Command.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/Command.cpp.o"
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/Data.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/Data.cpp.o"
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/Game.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/Game.cpp.o"
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/GameRules.cpp.o"
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/Player.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/Player.cpp.o"
+  "/Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/attackCommand.cpp.o"
+  "/Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/buyCommand.cpp.o"
+  "/Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.o"
   "/Users/evgeniishchagin/CLionProjects/BoardGame3/main.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/main.cpp.o"
+  "/Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.cpp" "/Users/evgeniishchagin/CLionProjects/BoardGame3/cmake-build-debug/CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/BoardGame3.dir/Player.cpp.o"
   "CMakeFiles/BoardGame3.dir/Game.cpp.o"
   "CMakeFiles/BoardGame3.dir/GameRules.cpp.o"
+  "CMakeFiles/BoardGame3.dir/Command.cpp.o"
+  "CMakeFiles/BoardGame3.dir/attackCommand.cpp.o"
+  "CMakeFiles/BoardGame3.dir/buyCommand.cpp.o"
+  "CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.o"
+  "CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.o"
   "BoardGame3.pdb"
   "BoardGame3"
 )

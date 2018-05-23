@@ -150,6 +150,33 @@ Character.cpp.s:
 	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/Character.cpp.s
 .PHONY : Character.cpp.s
 
+Command.o: Command.cpp.o
+
+.PHONY : Command.o
+
+# target to build an object file
+Command.cpp.o:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/Command.cpp.o
+.PHONY : Command.cpp.o
+
+Command.i: Command.cpp.i
+
+.PHONY : Command.i
+
+# target to preprocess a source file
+Command.cpp.i:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/Command.cpp.i
+.PHONY : Command.cpp.i
+
+Command.s: Command.cpp.s
+
+.PHONY : Command.s
+
+# target to generate assembly for a file
+Command.cpp.s:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/Command.cpp.s
+.PHONY : Command.cpp.s
+
 Data.o: Data.cpp.o
 
 .PHONY : Data.o
@@ -258,6 +285,87 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+attackCommand.o: attackCommand.cpp.o
+
+.PHONY : attackCommand.o
+
+# target to build an object file
+attackCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/attackCommand.cpp.o
+.PHONY : attackCommand.cpp.o
+
+attackCommand.i: attackCommand.cpp.i
+
+.PHONY : attackCommand.i
+
+# target to preprocess a source file
+attackCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/attackCommand.cpp.i
+.PHONY : attackCommand.cpp.i
+
+attackCommand.s: attackCommand.cpp.s
+
+.PHONY : attackCommand.s
+
+# target to generate assembly for a file
+attackCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/attackCommand.cpp.s
+.PHONY : attackCommand.cpp.s
+
+buyCommand.o: buyCommand.cpp.o
+
+.PHONY : buyCommand.o
+
+# target to build an object file
+buyCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/buyCommand.cpp.o
+.PHONY : buyCommand.cpp.o
+
+buyCommand.i: buyCommand.cpp.i
+
+.PHONY : buyCommand.i
+
+# target to preprocess a source file
+buyCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/buyCommand.cpp.i
+.PHONY : buyCommand.cpp.i
+
+buyCommand.s: buyCommand.cpp.s
+
+.PHONY : buyCommand.s
+
+# target to generate assembly for a file
+buyCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/buyCommand.cpp.s
+.PHONY : buyCommand.cpp.s
+
+formTroopCommand.o: formTroopCommand.cpp.o
+
+.PHONY : formTroopCommand.o
+
+# target to build an object file
+formTroopCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.o
+.PHONY : formTroopCommand.cpp.o
+
+formTroopCommand.i: formTroopCommand.cpp.i
+
+.PHONY : formTroopCommand.i
+
+# target to preprocess a source file
+formTroopCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.i
+.PHONY : formTroopCommand.cpp.i
+
+formTroopCommand.s: formTroopCommand.cpp.s
+
+.PHONY : formTroopCommand.s
+
+# target to generate assembly for a file
+formTroopCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.s
+.PHONY : formTroopCommand.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -285,6 +393,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+placeOnBttlfdCommand.o: placeOnBttlfdCommand.cpp.o
+
+.PHONY : placeOnBttlfdCommand.o
+
+# target to build an object file
+placeOnBttlfdCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.o
+.PHONY : placeOnBttlfdCommand.cpp.o
+
+placeOnBttlfdCommand.i: placeOnBttlfdCommand.cpp.i
+
+.PHONY : placeOnBttlfdCommand.i
+
+# target to preprocess a source file
+placeOnBttlfdCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.i
+.PHONY : placeOnBttlfdCommand.cpp.i
+
+placeOnBttlfdCommand.s: placeOnBttlfdCommand.cpp.s
+
+.PHONY : placeOnBttlfdCommand.s
+
+# target to generate assembly for a file
+placeOnBttlfdCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/BoardGame3.dir/build.make CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.s
+.PHONY : placeOnBttlfdCommand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -297,6 +432,9 @@ help:
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
+	@echo "... Command.o"
+	@echo "... Command.i"
+	@echo "... Command.s"
 	@echo "... Data.o"
 	@echo "... Data.i"
 	@echo "... Data.s"
@@ -309,9 +447,21 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... attackCommand.o"
+	@echo "... attackCommand.i"
+	@echo "... attackCommand.s"
+	@echo "... buyCommand.o"
+	@echo "... buyCommand.i"
+	@echo "... buyCommand.s"
+	@echo "... formTroopCommand.o"
+	@echo "... formTroopCommand.i"
+	@echo "... formTroopCommand.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... placeOnBttlfdCommand.o"
+	@echo "... placeOnBttlfdCommand.i"
+	@echo "... placeOnBttlfdCommand.s"
 .PHONY : help
 
 

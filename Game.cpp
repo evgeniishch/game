@@ -3,6 +3,10 @@
 //
 
 #include "Game.h"
+#include "buyCommand.h"
+#include "formTroopCommand.h"
+#include "placeOnBttlfdCommand.h"
+#include "attackCommand.h"
 
 void Game::initializePlayers() {
     int numberOfPlayers;
@@ -23,7 +27,6 @@ void Game::initializePlayers() {
 }
 
 void Game::initiallyChooseCharacters() {
-//    std::cout<< "Im here"<<std::endl;
     std::cout<<players.size();
     std::vector<bool> finished(players.size(), false);
     int finishedPlayers = 0;
@@ -76,8 +79,6 @@ void Game::placeOnBattlefield() {
         int characterNumber = 0;
         std::cin >> characterNumber;
 
-
-
         battlefield.push_back(std::make_pair(currentPlayerNumber, players[currentPlayerNumber].characters[characterNumber]));
         players[currentPlayerNumber].characters.erase(players[currentPlayerNumber].characters.begin(),
                                                       players[currentPlayerNumber].characters.begin() + characterNumber);
@@ -102,31 +103,11 @@ void Game::attack() {
     }
 }
 
-void Game::makeMove() {
-    std::cout << "Команды: 1 - купить персонажа, 2 - сформировать отряд, 3 - выставить на поле, 4 - атаковать, 5 - finish" << std::endl;
-    const int buy = 1, form_troop = 2, place_on_bttlf = 3, interact = 4, finish = 5;
-    int command = 0;
-
-    while (command != finish) {
-        std::cin >> command;
-        switch (command) {
-            case buy: {
-
-                std::string characterName = "";
-                std::cin >> characterName;
-                players[currentPlayerNumber].chooseCharacter(characterName);
-            }
-            case form_troop: {
-                players[currentPlayerNumber].formTroop();
-            }
-            case place_on_bttlf: {
-                placeOnBattlefield();
-            }
-            case interact : {
-                attack();
-            }
-        }
-    }
+void Game::buyCharacter() {
+    std::cout << "Введите имя персонажа, которого хотите купить: ";
+    std::string characterName;
+    std::cin >> characterName;
+    players[currentPlayerNumber].chooseCharacter(characterName);
 }
 
 void Game::updateTroops() {
@@ -140,18 +121,50 @@ void Game::startGame() {
 }
 
 void Game::runGame() {
-    std::cout << "And let the game begin!" << std::endl;
+    std::cout << "Да начнется битва!" << std::endl;
 
     currentPlayerNumber = 0;
 
     while (true) {
-        if (currentPlayerNumber) {
-            std::cout<< players[currentPlayerNumber].name << " won!" << std::endl;
+        if (won(currentPlayerNumber)) {
+            std::cout << players[currentPlayerNumber].name << " won!" << std::endl;
             break;
         } else {
-            makeMove();
+            std::cout << "Now it's " << players[currentPlayerNumber].name <<"'s turn!" << std::endl;
+            printCommands();
+            int command = 0;
+            const int buy = 1, form_troop = 2, place_on_bttlf = 3, attack = 4, finish = 5;
+
+            while(command != finish) {
+                std::cin >> command;
+                switch (command) {
+                    case buy: {
+                        buyCommand buy_cmd(this);
+                        buy_cmd.execute();
+                    }
+                    case form_troop: {
+                        formTroopCommand formTroop_cmd(this);
+                        formTroop_cmd.execute();
+                    }
+                    case place_on_bttlf: {
+                        placeOnBttlfdCommand placeOnBf_cmd(this);
+                        placeOnBf_cmd.execute();
+                    }
+                    case attack: {
+                        attackCommand attack_cmd(this);
+                        attack_cmd.execute();
+                    }
+                    default: {
+                        std::cout << "Неверная команда" << std::endl;
+                    }
+                }
+            }
             updateTroops();
             currentPlayerNumber = (currentPlayerNumber + 1) % players.size();
         }
     }
+}
+
+void Game::printCommands() {
+    std::cout << "Команды: 1 - купить персонажа, 2 - сформировать отряд, 3 - выставить на поле, 4 - атаковать, 5 - finish" << std::endl;
 }

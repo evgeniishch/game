@@ -4,17 +4,30 @@
 CMakeFiles/BoardGame3.dir/Character.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.cpp
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+CMakeFiles/BoardGame3.dir/Command.cpp.o
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.cpp
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
 CMakeFiles/BoardGame3.dir/Data.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.cpp
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
 CMakeFiles/BoardGame3.dir/Game.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.cpp
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h
 CMakeFiles/BoardGame3.dir/GameRules.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
@@ -27,6 +40,33 @@ CMakeFiles/BoardGame3.dir/Player.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.cpp
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+CMakeFiles/BoardGame3.dir/attackCommand.cpp.o
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.cpp
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/attackCommand.h
+CMakeFiles/BoardGame3.dir/buyCommand.cpp.o
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.cpp
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/buyCommand.h
+CMakeFiles/BoardGame3.dir/formTroopCommand.cpp.o
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.cpp
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/formTroopCommand.h
 CMakeFiles/BoardGame3.dir/main.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
@@ -34,3 +74,12 @@ CMakeFiles/BoardGame3.dir/main.cpp.o
  /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
  /Users/evgeniishchagin/CLionProjects/BoardGame3/main.cpp
+CMakeFiles/BoardGame3.dir/placeOnBttlfdCommand.cpp.o
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Character.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Command.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Data.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Game.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/GameRules.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/Player.h
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.cpp
+ /Users/evgeniishchagin/CLionProjects/BoardGame3/placeOnBttlfdCommand.h
