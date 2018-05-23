@@ -66,7 +66,7 @@ void Game::placeOnBattlefield() {
             std::vector<Character> chosenTroop = players[currentPlayerNumber].troops[troopNumber];
 
             for (auto &character : chosenTroop) {
-                battlefield.emplace_back(std::make_pair(currentPlayerNumber, character));
+                battlefield.emplace_back(CharacterOnField(currentPlayerNumber, character));
             }
 
             players[currentPlayerNumber].troops.erase(players[currentPlayerNumber].troops.begin(),
@@ -79,7 +79,7 @@ void Game::placeOnBattlefield() {
         int characterNumber = 0;
         std::cin >> characterNumber;
 
-        battlefield.push_back(std::make_pair(currentPlayerNumber, players[currentPlayerNumber].characters[characterNumber]));
+        battlefield.push_back(CharacterOnField(currentPlayerNumber, players[currentPlayerNumber].characters[characterNumber]));
         players[currentPlayerNumber].characters.erase(players[currentPlayerNumber].characters.begin(),
                                                       players[currentPlayerNumber].characters.begin() + characterNumber);
     }
@@ -94,12 +94,12 @@ void Game::attack() {
     int victim = 0;
     std::cin >> victim;
 
-    battlefield[victim].second.health = std::max(0, battlefield[victim].second.health - battlefield[attacker].second.damage);
-    if (battlefield[victim].second.health == 0) {
-        battlefield[attacker].second.experience += 20;
+    battlefield[victim].character.health = std::max(0, battlefield[victim].character.health - battlefield[attacker].character.damage);
+    if (battlefield[victim].character.health == 0) {
+        battlefield[attacker].character.experience += 20;
         battlefield.erase(battlefield.begin(), battlefield.begin() + victim);
     } else {
-        battlefield[attacker].second.experience += 10;
+        battlefield[attacker].character.experience += 10;
     }
 }
 

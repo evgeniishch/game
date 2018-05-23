@@ -18,4 +18,5 @@ public:
     // vector<Abilities> abilities;
 
     Character (std::string name, int price, int health, int armour, int damage);
+    Character() = default;
 };

@@ -5,6 +5,7 @@
 
 #include "Player.h"
 #include "GameRules.h"
+#include "CharacterOnField.h"
 
 class Game {
 public:
@@ -23,7 +24,10 @@ public:
     void printCommands();
 
     std::vector<Player> players;
-    std::vector<std::pair<int, Character>> battlefield;
+    std::vector<CharacterOnField> battlefield;
     int currentPlayerNumber;
+
+private:
+
 };
 
