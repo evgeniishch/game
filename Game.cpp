@@ -115,6 +115,7 @@ void Game::updateTroops() {
 }
 
 void Game::startGame() {
+    std::cout << "Добро пожаловать в игру!" << std::endl;
     initializePlayers();
     initiallyChooseCharacters();
     runGame();
